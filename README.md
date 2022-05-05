@@ -1,0 +1,4 @@
+- 👋 Hi, I’m @mertqmert
+- 👀 I’m interested in Geoinformation and Blockchain.
+- 🌱 I’m currently learning html & css.
+- 📫 How to reach me cumert1999@gmail.com
