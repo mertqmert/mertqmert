@@ -1,0 +1,108 @@
+.container {  display: grid;
+    grid-auto-columns: 1fr 1.5fr 0.5fr;
+    grid-auto-rows: 0.2fr 0.2fr 2.6fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "Title Title Title"
+      "Navigation Navigation Navigation"
+      "Map Map Functions"
+      "Map Map Functions";
+
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: antiquewhite;
+  }
+  
+  .Title { grid-area: Title; 
+    background-color: #145220;
+    border-top: solid;
+    border-left: solid;
+    border-right: solid;
+    border-color: black;
+    border-width: 0.1cm;
+}
+  
+  .Navigation {  display: grid;
+    grid-auto-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-auto-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "Our-Mission About-Us Team Links Imprint";
+    grid-area: Navigation;
+    background-color: #145220;
+    border-left: solid;
+    border-right: solid;
+    border-bottom: solid;
+    border-color: black;
+    border-width: 0.1cm;
+  }
+  
+  .Our-Mission{ grid-area: Our-Mission; }
+
+  .Our-Mission a { grid-area: Our-Mission; 
+    color: antiquewhite;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+  }
+  
+  .About-Us { grid-area: About-Us; }
+  .About-Us a { grid-area: About-Us; 
+    color: antiquewhite;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+  }
+  
+  .Team { grid-area: Team; }
+  .Team a { grid-area: Team; 
+    color: antiquewhite;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+  }
+  
+  .Links { grid-area: Links; }
+  
+  .Imprint { grid-area: Imprint; }
+  
+  .Functions {  display: grid;
+    grid-auto-columns: 1fr;
+    grid-auto-rows: 0.7fr 0.5fr 0.5fr 0.5fr 2.8fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "Tools"
+      "Upload-Litter"
+      "Edit-Litter"
+      "Delete-Litter"
+      ".";
+    grid-area: Functions;
+    border-left: solid;
+    border-right: solid;
+    border-bottom: solid;
+    border-color: black;
+    border-width: 0.1cm;
+    background-color: #145220;
+  }
+  
+  .Tools { grid-area: Tools; 
+    font-size: 5px;
+  }
+  
+  .Upload-Litter { grid-area: Upload-Litter; }
+  
+  .Edit-Litter { grid-area: Edit-Litter; }
+  
+  .Delete-Litter { grid-area: Delete-Litter; }
+  
+  .Map { grid-area: Map; }
+  
